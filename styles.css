@@ -21,7 +21,7 @@ header img {
 main {
     text-align: left;
 }
-footer p{
+footer p, footer a{
     text-align: center;
     color: #3f3189;
 }
@@ -50,4 +50,12 @@ h2 {
 .hello-p {
     font-size: clamp(20px, 2vw, 24px);
     color: #181818;
+}
+.small-p, .small-p a {
+    font-size: clamp(16px, 2vw, 20px);
+    color: #5e5e5e;
+}
+a {
+    text-decoration: none;
+    text-decoration: underline;
 }
